@@ -1,4 +1,4 @@
-let form = document.getElementById('app')
+let form = document.getElementById("app")
 
 function parseDate(getdate) {
   let selectedDate = new Date(getdate);

@@ -4,3 +4,34 @@
     margin-bottom: 0%;
     font-size: 40px;
     text-align: center;
+}
+#nav-bar{
+    background-color: black;
+    font-size: 18px;
+    padding: 18px;
+
+}
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+#nav-bar li{
+    display: inline;
+    padding: 18px;
+}
+#nav-bar a:hover{
+    color: red;
+}
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    padding-right: 15px;
+}
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}

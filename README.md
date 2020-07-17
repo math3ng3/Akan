@@ -1,5 +1,5 @@
 # Akan names
-<<<<<<< HEAD
+
 This Repository contains code for my akan name aplication.
 This Repository contains code for my akan name aplication
 ##### By Andrew Mathenge
@@ -20,6 +20,7 @@ This is a Personal Project that i have created an aplication that submit your ak
 * HTML
 * CSS
 * Java Script
+* BootStrap
 # BDD
 - Enter your birthday details
  You will input your details by typing or by clicking on the provided calender.

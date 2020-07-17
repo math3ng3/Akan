@@ -5,7 +5,7 @@ This Repository contains code for my akan name aplication.
 This is a Personal Project that i have created an aplication that submit your akan name also known as Ghana name. Akan names are names given to children in Ghana according to the day of the week they were born also known as the ("day names").This application is going to calculate and display using your gender and dates provided.
               </div>  
 ## Setup Instructions
-* git clone https://github.com/hamida-mstafa/projectakan on your terminal.
+* git clone https://math3ng3.github.io/Akan/ on your terminal.
 * Navigate to the akan names folder.
 * Open the folder in your editor.
 ## Technologies Used

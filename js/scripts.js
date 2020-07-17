@@ -1,4 +1,5 @@
 let form = document.getElementById("app")
+let p = document.getElementById("display")
 
 function parseDate(getdate) {
   let selectedDate = new Date(getdate);
@@ -28,7 +29,8 @@ form.addEventListener("submit", function(e) {
   	akanName = femaleAkan[index]
   }
   
-  
+  p.innerHTML = "You're Akan name is;" + " " + akanName;
+  p.classList.add("pClass")
   console.log(birthday, gender, age, akanName)
   
 })

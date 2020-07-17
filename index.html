@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=">
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>AkanNames</title>
   <link rel="stylesheet" href="CSS/styles.css">
   
@@ -28,7 +31,7 @@
         <br>
         Kindly fill in the parameter below, so that we can generate your Akan name;
       </P>
-  <form id="app">
+  <form id="app" class="justify-content-center">
     <div class="formu">
       <label for="birthday">Birthday</label>
       <input type="date" name="birthday">
@@ -47,8 +50,13 @@
       <input type="text" name="age">
     </div>
     <br>
-       <input type="submit" name="Submit"> 
+       <button type="submit" class="btn btn-warning">Generate Akan Name</button>
   </form>
+       <div>
+          <p id="display">
+            
+          </p>
+       </div>
           <br>
         <footer id="footer">
              <p >Copyright &copy;math3ng3 2020</p>

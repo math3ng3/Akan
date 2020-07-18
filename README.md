@@ -29,5 +29,5 @@ This is a Personal Project that i have created an aplication that submit your ak
 ## Contribution
 Incase of any contributions, feel free to do so by visiting[this link](https://github.com/math3ng3/Akan.git).
 ### License
-[![License: MIT]()](https://opensource.org/licenses/MIT)
 Copyright (c) 2020 **math3ng3**
+License under the [MIT License] (License)

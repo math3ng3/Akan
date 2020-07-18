@@ -9,6 +9,11 @@ function parseDate(getdate) {
   
   return selectedDate.getDay();
 }
+
+var name = prompt("What is your name?");
+alert("Welcome"+" "+ name + " " +"to our akanName generating site.")
+
+
 form.addEventListener("submit", function(e) {
   e.preventDefault();
   let birthday = this.elements[0].value

@@ -1,4 +1,5 @@
-let form = document.getElementById('app')
+let form = document.getElementById("app")
+let p = document.getElementById("display")
 
 function parseDate(getdate) {
   let selectedDate = new Date(getdate);
@@ -8,6 +9,11 @@ function parseDate(getdate) {
   
   return selectedDate.getDay();
 }
+
+var name = prompt("What is your name?");
+alert("Welcome"+" "+ name + " " +"to our akanName generating site.")
+
+
 form.addEventListener("submit", function(e) {
   e.preventDefault();
   let birthday = this.elements[0].value
@@ -28,7 +34,8 @@ form.addEventListener("submit", function(e) {
   	akanName = femaleAkan[index]
   }
   
-  
+  p.innerHTML = "You're Akan name is;" + " " + akanName;
+  p.classList.add("pClass")
   console.log(birthday, gender, age, akanName)
   
 })
